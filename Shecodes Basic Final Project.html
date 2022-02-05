@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SHEABUTTER</title>
+  </head>
+  <style>
+    .final-project {
+      text-align: center;
+    }
+    body {
+     background: linear-gradient(rgb(50, 175, 165), #58588d, #66c2ff, #ffcccc, #ffeee6);
+    
+  }
+    h1 {
+      text-align: center;
+      color: rgb(252, 252, 252);
+      font-weight: normal;
+      text-decoration: underline;
+      font-size: 35px;
+      font-family: Georgia, "Times New Roman", Times, serif;
+      line-height: normal;
+    }
+    h2 {
+      text-align: center;
+      font-weight: normal;
+      font-size: 25px;
+      font-family: Georgia, "Times New Roman", Times, serif;
+    }
+    h3 {
+      font-family: Georgia, "Times New Roman", Times, serif;
+      font-weight: normal;
+      text-align: center;
+      border: 1px solid white;
+      background-color: rgb(255, 255, 255);
+    }
+    img {
+      margin: 0 auto;
+      border-radius: 30px;
+      display: block;
+      border: 1px solid rgb(245, 245, 245);
+      box-shadow: 1px 3px 5px green;
+    }
+    footer {
+      text-align: center;
+      font-weight: lighter;
+      font-size: 15px;
+    }
+    p {
+      font-size: 20px;
+      font-family: Georgia, "Times New Roman", Times, serif;
+      text-align: center;
+      border: 1px solid white;
+      background-color: rgb(255, 255, 255);
+    }
+    button {
+      font-size: 20px;
+      font-weight: lighter;
+      border-radius: 30px;
+      border: 1px solid;
+      color: blue;
+      background-color: rgb(255, 255, 255);
+      display: block;
+      padding: 10px;
+      margin: 0 auto;
+      box-shadow: 1px 5px 4px #d9ccfa;
+    }
+    button:hover {
+      background-color: green;
+      color: white;
+      font-weight: bold;
+      transition: all 200ms ease-in-out;
+      cursor: pointer;
+    }
+    strong {
+      color: rgb(12, 40, 161);
+    }
+    .owner {
+      color: blue;
+      filter: brightness(2);
+    }
+  </style>
+  <body>
+    <div class="final-project">
+      <h1><em> Pure Organic African Sheabutter </em></h1>
+      <hr />
+      <h2>
+        <strong> _SIDDA_GH Natural Hair Growth Butter </strong>
+      </h2>
+
+      <img
+        src="https://d17a17kld06uk8.cloudfront.net/products/BC4DQ69/ELJ7ZR1C-large.jpg"
+        width="400"
+      />
+      <p>Pure Sheabutter</p>
+
+      <h3>
+        Shea butter is a fat extracted from the nut of the African
+        <a href="https://en.wikipedia.org/wiki/Vitellaria" target="_blank">
+          shea tree.</a
+        >
+        The shea tree is a traditional African food plant. It has been claimed
+        to have potential to improve nutrition. The Karite tree bears the
+        fruits, and the nuts inside the fruits are of prime importance. These
+        nuts are crushed, boiled, and manipulated to extract a light-colored
+        fat, which is commonly referred to as shea butter. The main components
+        of shea butter include oleic acid, stearic acid, linoleic acid, etc. It
+        gets absorbed quickly into the skin as it melts at body temperature. Its
+        moisturizing and healing properties prove beneficial for many skin
+        issues. It also has anti-inflammatory and antimicrobial properties (to a
+        certain extent) that can be utilized to treat many ailments. Its
+        similarity to many vegetable oils makes it suitable for ingestion
+        <a href="https://en.wikipedia.org/wiki/Shea_butter" target="_blank">
+          <em> Read more on wikipedia. </em>
+        </a>
+      </h3>
+
+      <br />
+      <img
+        src="https://www.makari.com/blog/wp-content/uploads/2019/04/Shea-Butter-For-Skin-1.jpg"
+        width="400"
+      />
+      <br />
+      <br />
+      <p>
+        <br />
+        sheabutter has been used by a wide range of African men and women for
+        beautiful rich melanin skin and hair growth and shine. It has properties
+        to thicken, strenghten and give shine to your natural kinky hair.
+        Additionally it makes hard kinky hair (4C) soft and easier to manage. It
+        is currently gaining recognition in the diaspora as well. _Sidda_gh has
+        formulated pure organic sheabutter with a combination of great oils into
+        a very unique hair growth butter. the shea butter mix is made frompure
+        Sheabuttersourced from local producers in West Africa (Ghana). the
+        product makes hair longer, shiny, soft and easy to manage.
+      </p>
+      <br />
+      <br />
+      <img
+        src="https://i.pinimg.com/564x/8c/1b/20/8c1b20f3069c36e5b1e0db7e4e28ba72.jpg"
+        width="400"
+      />
+      <br />
+      <br />
+      <button>Buy organic sheabutter</button>
+      <br />
+      <hr />
+      <footer>
+        Coded by <span class="owner">Ama Twumasi </span> , contact us at
+        <strong>
+          <a href="https://www.instagram.com/accounts/login" target="_blank">
+            _Sidda_gh
+          </a>
+        </strong>
+      </footer>
+    </div>
+    <script>
+      function buy() {
+        let name = prompt("What is your name");
+        let hairType = prompt("What is your hair type");
+        let length = prompt("What is your current hair length 💇‍♀️🤔");
+        let hairGoals = prompt("What are your hair goals 😃❣");
+        let choice = prompt("would you like us to recommend a product");
+        choice = choice.toLowerCase();
+        choice = choice.trim();
+        choice = choice.replace("brasil", "brazil");
+        if (choice === "yes") {
+          let h1 = document.querySelector("h1");
+
+          h1.innerHTML =
+            "That's amazing!! " + name + ",  let's get your hair game on 😎 ";
+        } else {
+          alert("Alright 😞" + name + ", we wish you the best! ");
+        }
+      }
+
+      let buySheabutter = document.querySelector("button");
+
+      buySheabutter.addEventListener("click", buy);
+    </script>
+  </body>
+</html>
