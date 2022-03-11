@@ -1,0 +1,74 @@
+  .final-project {
+      text-align: center;
+    }
+    body {
+     background: linear-gradient(rgb(50, 175, 165), #58588d, #66c2ff, #ffcccc, #ffeee6);
+    
+  }
+    h1 {
+      text-align: center;
+      color: rgb(252, 252, 252);
+      font-weight: normal;
+      text-decoration: underline;
+      font-size: 35px;
+      font-family: Georgia, "Times New Roman", Times, serif;
+      line-height: normal;
+    }
+    h2 {
+      text-align: center;
+      font-weight: normal;
+      font-size: 25px;
+      font-family: Georgia, "Times New Roman", Times, serif;
+    }
+    h3 {
+      font-family: Georgia, "Times New Roman", Times, serif;
+      font-weight: normal;
+      text-align: center;
+      border: 1px solid white;
+      background-color: rgb(255, 255, 255);
+    }
+    img {
+      margin: 0 auto;
+      border-radius: 30px;
+      display: block;
+      border: 1px solid rgb(245, 245, 245);
+      box-shadow: 1px 3px 5px green;
+    }
+    footer {
+      text-align: center;
+      font-weight: lighter;
+      font-size: 15px;
+    }
+    p {
+      font-size: 20px;
+      font-family: Georgia, "Times New Roman", Times, serif;
+      text-align: center;
+      border: 1px solid white;
+      background-color: rgb(255, 255, 255);
+    }
+    button {
+      font-size: 20px;
+      font-weight: lighter;
+      border-radius: 30px;
+      border: 1px solid;
+      color: blue;
+      background-color: rgb(255, 255, 255);
+      display: block;
+      padding: 10px;
+      margin: 0 auto;
+      box-shadow: 1px 5px 4px #d9ccfa;
+    }
+    button:hover {
+      background-color: green;
+      color: white;
+      font-weight: bold;
+      transition: all 200ms ease-in-out;
+      cursor: pointer;
+    }
+    strong {
+      color: rgb(12, 40, 161);
+    }
+    .owner {
+      color: blue;
+      filter: brightness(2);
+    }
